@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* 공통 스타일 */
+
+html, body{margin: 0; padding: 0;}
+header, section, article, nav, aside, footer{margin: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+#ex_03_flex {
+  width: 1200px;
+  height: 90px;
+  background-color: #eff;
+  padding: 0 20px;
+}
+#ex_03_flex .wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #eff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#ex_03_flex .wrap .logo {
+  width: 160px;
+}
+
+#ex_03_flex .wrap .logo img {
+  width: 100%;
+  height: 100%;
+}
+#ex_03_flex .wrap .menu {
+}
+#ex_03_flex .wrap .menu ul {
+  display: flex;
+}
+#ex_03_flex .wrap .menu ul li {
+  margin: 0 20px;
+}
+#ex_03_flex .wrap .menu ul li a {
+  display: block;
+  line-height: 60px;
+  color: #17d;
+  position: relative;
+  font-size: 16px;
+}
+
+
+#ex_03_flex .wrap .menu ul li:hover a {
+  color: #0147ad;
+}
+
+#ex_03_flex .wrap .my {
+  width: 276px;
+  text-align: right;
+}
+#ex_03_flex .wrap .my a {
+  color: #17d;
+  font-size: 16px;
+}
